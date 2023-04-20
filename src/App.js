@@ -19,7 +19,14 @@ const App = () => {
 
   return (
     <div className="App">
-        <h1> App </h1>
+        <h1> MovieLand </h1>
+          <div className='search'>
+            <input
+              placeholder="search for movies"
+              value="Superman"
+              onChange={() => {}}
+            />
+          </div>
     </div>
   );
 }
